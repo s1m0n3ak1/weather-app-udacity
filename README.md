@@ -9,9 +9,9 @@ Small recap of the project requirements.
 ### Project Environment Setup
 ##### Node and Express Environment
 
-- [ ] Node and Express should be installed on the local machine. The project file `server.js` should require `express()`, and should create an instance of their app using express.
+- [x] Node and Express should be installed on the local machine. The project file `server.js` should require `express()`, and should create an instance of their app using express.
 
-- [ ] The Express app instance should be pointed to the project folder with .html, .css, and .js files.
+- [x] The Express app instance should be pointed to the project folder with .html, .css, and .js files.
 
 ##### Project Dependencies
 
@@ -75,3 +75,26 @@ The div with the `id`, `entryHolder` should have three child divs with the ids:
 
 - [ ] Sets the properties of existing HTML elements from the DOM using Vanilla JavaScript.
 - [ ] Included in the async function to retrieve that app’s data on the client side, existing DOM elements should have their `innerHTML` properties dynamically set according to data returned by the app route.
+
+## Project Commands
+
+First install dependencies for node server:
+```console
+foo@bar:~$ npm install
+```
+
+To start the server normally:
+
+```console
+foo@bar:~$ npm run start:node
+```
+
+To start the server with hot reload:
+
+```console
+foo@bar:~$ npm run start:nodemon
+```
+
+Project will run on port `3030`.
+
+## Link to the project
