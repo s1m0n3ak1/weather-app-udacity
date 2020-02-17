@@ -1,11 +1,9 @@
 // Weather API Credentials
-// These credentials will be revoked as soon as the project is approved
-const weatherApiKey = '3d16e192256d0a8bfe7df56e959e5ed1';
+\const weatherApiKey = '';
 const weatherApiBase = 'https://api.openweathermap.org/data/2.5/weather';
 
 // Unsplash Api Credentials
-// These credentials will be revoked as soon as the project is approved
-const unsplashApiKey = 'ef52ff3596da2f9610c120bf245124290bc6546378af574e7fdfe6ce9bdd61e4';
+const unsplashApiKey = '';
 const unsplashApiBase = `https://api.unsplash.com`;
 
 // Weather API URL
