@@ -110,7 +110,7 @@ The project have the following data that updates every time there's a search ent
 - Location Maximum Temperature (id: `max_temp`);
 - Content (id: `content`);
 
-When you first load the app, the `app.js` will request to allow geolocalization in order to get the data directly from the your location:
+When you first load the app, the `app.js` will request to allow geolocalization in order to get the data directly from your location:
 
 ```javascript
 const options = {
@@ -137,7 +137,9 @@ function error(err) {
 navigator.geolocation.getCurrentPosition(success, error, options);
 ```
 
+
 This way you will have weather data displayed from your location. By using the function `initialWeather`:
+
 
 ```javascript
 const initialWeather = (lng, lat) => {
@@ -145,7 +147,9 @@ const initialWeather = (lng, lat) => {
 }
 ```
 
+
 The additional feature i included here is that, everytime you perform a search on the openweathermap APIs, also the background image change. This is the result of a call to the Unsplash API on the `/photos/random` endpoint with a query of `?query=city`.
+
 
 ```javascript
 ...
@@ -198,7 +202,9 @@ getUpdateAndGet(
 
 ```
 
+
 The unsplash API is called also during the first page load.
+
 
 ## Project Possible Improvements
 
