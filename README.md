@@ -95,7 +95,7 @@ To start the server with hot reload:
 foo@bar:~$ npm run start:nodemon
 ```
 
-Project will run on port `3030`.
+Project will run on port `3000`.
 
 ## Project Features
 
