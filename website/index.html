@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <neta name="description" content="Insert a US zip and get weather info about your area with a nice background image" />
+    <title>Weather Journal</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <div id="root__container">
+        <!-- Form -->
+        <div id="form__container">
+            <form class="form">
+                <input type="number" id="zip" placeholder="enter zip code here" />
+                <textarea id="feelings"></textarea>
+                <input type="submit" id="generate" value="search" />
+            </form>
+        </div>
+        <!-- END Form -->
+
+        <div id="entryHolder">
+             <!-- Box Date -->
+             <div id="date"></div>
+             <!-- END Box Date -->
+
+            <!-- Box Icon Status -->
+            <img src="" id="icon" />
+            <!-- END Box Icon Status -->
+
+            <!-- Weather Condition -->
+            <div id="condition"></div>
+            <!-- END Weather Condition -->
+
+            <!-- Box Name -->
+            <div id="city"></div>
+            <!-- END Box Name -->
+
+            <!-- Box Temperature -->
+            <div id="temp">
+                <div id="average"></div>
+                <div class="min_max">
+                    <span class="label">min</span>
+                    <span id="min"></span>
+                    <span class="label">max</span>
+                    <span id="max"></span>
+                </div>
+            </div>
+            <!-- END Box Temperature -->
+
+            <!-- Content -->
+            <div id="content"></div>
+            <!-- END Content -->
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
